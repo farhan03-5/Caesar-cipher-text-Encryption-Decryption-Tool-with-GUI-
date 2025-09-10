@@ -1,11 +1,35 @@
-📌 Features
+# 🔐 Caesar Cipher Text Encryption & Decryption Tool (with GUI)
 
-Encrypt or decrypt any text using Caesar Cipher
+A beginner-friendly *Python project* that demonstrates basic *text encryption and decryption* using the *Caesar Cipher* algorithm. Includes a simple, interactive *Tkinter GUI* for ease of use.
 
-Simple and intuitive Tkinter-based GUI
+---
 
-Support for both uppercase and lowercase letters
+## 📌 Features
 
-Customizable shift value
+- 🔒 Encrypt or decrypt any message
+- 🖼 GUI interface built with Tkinter (no command line needed)
+- 🔁 User-defined shift value
+- 🔤 Supports uppercase & lowercase letters
+- ✳ Keeps non-alphabetic characters (e.g. symbols, spaces) unchanged
 
-Handles non-alphabetic characters gracefully
+---
+
+## 🧠 How Caesar Cipher Works
+
+The Caesar Cipher shifts each letter in the text by a fixed number of positions in the alphabet.
+
+*Example (Shift = 3):*
+
+- A ➝ D
+- B ➝ E
+- X ➝ A
+- Z ➝ C
+
+To *decrypt, the letters are shifted in the **opposite direction*.
+
+---
+
+## 🛠 Technologies Used
+
+- 🐍 Python 3.x
+- 🪟 Tkinter (standard Python GUI library)
